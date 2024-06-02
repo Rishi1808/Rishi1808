@@ -23,12 +23,9 @@ jobs:
       # Generates the snake  
       - name: Generate Snake
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: Rishi1808
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # Omit gif_out_path and svg_out_path as they are invalid inputs
 
       # Show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
@@ -40,7 +37,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add dist/*.gif dist/*.svg
+          git add .github
           git commit -m "Generate snake contribution graph"
           git push origin output
 
@@ -50,6 +47,6 @@ jobs:
         with:
           # the output branch we mentioned above
           target_branch: output
-          build_dir: dist
+          build_dir: .github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
