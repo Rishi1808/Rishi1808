@@ -1,10 +1,15 @@
-<h2 align="left">A passionate software/web developer from Ranchi, India 🇮🇳<br><br>  
+<h2 align="left">A passionate software/web developer from Ranchi, India 🇮🇳</h2>
+
 🔭 Currently pursuing MCA at Birla Institute of Technology, Mesra  
-🌱 Learning MERN Stack, Java + DSA, and DBMS  
-🎯 Aspiring Frontend Developer  
+
+🌱 Learning MERN Stack, Java + DSA, DBMS, Spring Boot, REST API, and JPA  
+
+🎯 Aspiring Frontend Developer with Backend Expertise  
+
 🏆 1st Prize - Code Hunt 3.0 | 2nd Prize - Codezilla (Pantheon Techfest '23)  
+
 ⚡ Fun fact: Game of Thrones Night's Watch cloaks were made from IKEA rugs  
-</h2>
+
   
   ###
   
